@@ -23,8 +23,9 @@ A **Patient** can do the following functions:
 A **Doctor** can do the following things:  
 - Register to the portal
 - Access and add the records of their patients
-- Prescribe medicine to a patient
+- Prescribe medicine to a patient  
 
+  
 ### Features of this Application:  
 - **Register a New Doctor**  
   Function to register a new doctor to the ledger.  
@@ -73,7 +74,7 @@ A **Doctor** can do the following things:
 - **View Doctor Details**  
   Function to view doctor details.  
   Parameter: Doctor ID.  
-  Returns: name, qualification, and workplace address.
+  Returns: name, qualification, and workplace address.  
 
 ### Tools and Technologies Used:  
 * **Smart Contract Development:** Solidity
@@ -82,3 +83,88 @@ A **Doctor** can do the following things:
 * **Local Blockchain Network:** Ganache  
 
 ### Application Testing and Demo :  
+
+- Opened Remix IDE and developed a Smart contract namely [**patient_record_storage.sol**](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/blob/main/patient_record_storage.sol)
+![Screenshot from 2024-04-04 17-13-08](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/4b2987ef-f524-4d87-badf-819563ff8448)
+
+- Code compiled successfully.
+![Screenshot from 2024-04-04 17-13-34](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/25f75953-ba86-4cb9-b59c-cb5c315039f5)
+
+- Successfully deployed the smart contract onto the Ethereum Blockchain. Below is the Output of all the Functions which will be used in execution of this application.  
+  ![Screenshot from 2024-04-04 18-26-52](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/4387661d-c7cf-4edb-b822-b02a0032903b) ![Screenshot from 2024-04-04 18-27-04](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/951ba4e5-b2f0-44fc-a7e4-d9ba2f1e286c) ![Screenshot from 2024-04-04 18-27-13](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/f7b00521-323a-4263-8483-9d0906cd777e)  
+
+- Register a Doctor (address : 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4)  
+  ![Screenshot from 2024-04-04 18-28-00](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/f4bf43d7-012a-4637-ab7c-9aad87e3a34e)
+
+- View Doctor details  
+  ![Screenshot from 2024-04-04 18-28-51](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/bd78837d-87fd-422a-8440-ed0a39be9d8f)
+
+- Register a Patient (address : 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2)  
+  ![Screenshot from 2024-04-04 18-29-32](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/c829aa2d-eb84-44a3-82b2-6907ecc0be47)
+
+- Assign above doctor to the above patient  
+  ![Screenshot from 2024-04-04 18-30-36](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/4baef893-ec1a-4a1a-ba9c-8bd73e8c68fd)
+
+- Add a disease to a patient's record (Patient address : 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2)  
+  ![Screenshot from 2024-04-04 18-32-12](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/c5e0ca41-af43-4edd-a482-c86ed8840acc)
+
+- View Patient Data  
+  ![Screenshot from 2024-04-04 18-34-28](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/7a427007-6482-4502-b060-6e432dff3120)
+
+- Add a medicine to the system  
+  ![Screenshot from 2024-04-04 18-38-41](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/f3b2ff74-181d-4563-971f-d256fae1f2ed)
+
+- Prescribe medicine to a patient  
+![Screenshot from 2024-04-04 18-40-28](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/f3d1c3e4-fa73-4a20-b112-abdf5add9806)
+
+- Update Patient Details  
+  ![Screenshot from 2024-04-04 18-41-21](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/b037e276-6c84-4f58-9d2d-ac6d7677392a)
+
+- View Updated Patient Data  
+![Screenshot from 2024-04-04 18-41-49](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/b3b8fe67-f11c-4db7-b623-2e2671a3ff36)
+
+- View Medicine Details  
+  ![Screenshot from 2024-04-04 18-44-42](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/3130d4e3-6853-497b-a700-8d7668102f98)
+
+- View Patient Data by a Doctor  
+  ![Screenshot from 2024-04-04 18-51-57](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/c0071354-8400-4d51-910a-a16366fc5d66)
+
+- View Prescribed Medicine to the Patient  
+  ![Screenshot from 2024-04-04 18-53-19](https://github.com/moheenpatel/Decentralized-Health-Record-Management-System/assets/72771390/24f4e20b-67d9-4e86-a374-f486eb7c9e40)  
+
+
+### $${\color{red}End \space of \space Application \space Testing \space and \space Demo}$$  
+<br>
+
+----
+
+
+
+# Advantages of Decentralized Health Record Management System over Traditional Electronic Health Records (EHRs)  
+1. **Data Ownership**: In a decentralized system, patients have full ownership and control over their health records. They can grant access to healthcare providers or researchers as needed, without relying on centralized entities.
+
+2. **Data Security**: Decentralized systems use cryptographic techniques to secure data, making it more resistant to unauthorized access and tampering compared to traditional EHRs, which are vulnerable to centralized data breaches.
+
+3. **Transparency**: The transparent nature of blockchain technology ensures that all transactions and changes to health records are recorded and visible to authorized parties, enhancing trust and accountability.
+
+4. **Interoperability**: Decentralized systems can improve interoperability between different healthcare providers and systems, allowing for seamless sharing of health records across borders and systems.
+
+5. **Privacy**: Blockchain technology enables patients to control who can access their health data, protecting their privacy and ensuring that sensitive information is not shared without consent.
+
+6. **Reduced Costs**: By eliminating the need for intermediaries and redundant record-keeping processes, decentralized systems can reduce administrative costs associated with managing health records.
+
+7. **Immutable Records**: Health records stored on a blockchain are immutable, meaning that once a record is created, it cannot be altered or deleted. This ensures the integrity and authenticity of health data.
+
+8. **Patient Empowerment**: Decentralized systems empower patients to actively participate in their healthcare by giving them greater control over their health data and treatment decisions.
+
+
+
+
+
+
+
+
+
+
+
+
