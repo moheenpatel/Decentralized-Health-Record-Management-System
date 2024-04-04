@@ -159,7 +159,8 @@ A **Doctor** can do the following things:
 
 
 
-
+# Conclusion  
+In conclusion, the implementation of a Decentralized Health Record Management System powered by blockchain technology addresses critical issues present in traditional Electronic Health Records (EHRs). By decentralizing patient data, this system ensures greater privacy, security, and patient control over their health information. It eliminates the need for data consolidation across multiple hospitals, providing a comprehensive and easily accessible medical history for patients. Moreover, by enabling patients to own and manage their health records, and by verifying doctor authenticity, this system promotes transparency and accountability in healthcare data management. Overall, this project demonstrates the transformative potential of decentralized systems in revolutionizing healthcare data management for improved patient outcomes and aims to revolutionize the healthcare industry by promoting data transparency, security, and patient-centric care.
 
 
 
