@@ -1,6 +1,14 @@
 # Blockchain Based Decentralized Health Record Management System
 
 ## Table of Content
+- [Problem Statement](#problem-statement)
+- [Solution](#solution)
+  - [Features of this Application](#features-of-this-application)
+  - [Tools and Technologies Used](#tools-and-technologies-used)
+  - [Application Testing and Demo](#application-testing-and-demo-)
+- [Advantages of Decentralized Health Record Management System over Traditional Electronic Health Records (EHRs)](#advantages-of-decentralized-health-record-management-system-over-traditional-electronic-health-records-ehrs)
+- [Conclusion](#conclusion)  
+
 
 ## Problem Statement
 The patient record is one of the important assets that is currently centralized, maintained, and managed by hospitals. Some countries have moved to Electronic Health Record (EHR), and many countries still follow the old method to store the patient and medical details. Around 80 to 90% of the hospitals in the United States have adopted basic EHR systems, which have a lot of problems related to privacy, security, and ownership of these health records. Even after moving to EHR, the patient record is completely owned and controlled by hospitals, and being the owner of that record, a patient does not have access to the data and has to always reach out to hospitals to get it. Data consolidation is one of the biggest challenges as every hospital stores these EHRs on their server. The patients need to access different EHRs to consolidate their complete medical history. Since hospitals own the EHRs, they have full control and can manipulate the data at any moment. They can even sell the data to research organization and earn a good amount of money. Along with the patient record, doctor authenticity is another challenge that is faced as there is no direct way to check if the doctor is real or not.
@@ -79,8 +87,7 @@ A **Doctor** can do the following things:
 ### Tools and Technologies Used:  
 * **Smart Contract Development:** Solidity
 * **IDE Tool:** Remix
-* **Blockchain Platform:** Ethereum
-* **Local Blockchain Network:** Ganache  
+* **Blockchain Platform:** Ethereum  
 
 ### Application Testing and Demo :  
 
